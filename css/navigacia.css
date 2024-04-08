@@ -1,0 +1,41 @@
+ /*vzpnutie zakldnych nastaveni prehlidacu*/
+ *{margin: 0;
+    padding: 0;
+  }
+  
+  /*navigacia bez bodiek*/
+  ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(78, 77, 77);
+  }
+  
+  /*umiesnenie navigacie na lavo */
+  li.nav {
+  float: left;
+  }
+  
+  /*navigacia farba textu, vyvazenie na stred*/
+  li.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition-duration: 500ms;
+  }
+  
+ /*navigacia levitovanie meni farbu*/ 
+  li.nav a:hover {
+  background-color: rgb(206, 171, 147);
+  transition-duration: 500ms;
+  
+  }
+ /*rozkliknutie meni farbu*/ 
+li.nav a:active {
+  background-color: rgb(173, 139, 115);
+  }
+
+body{width: 100%;}

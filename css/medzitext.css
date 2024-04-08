@@ -1,0 +1,19 @@
+div.neviem{padding-top:7%;
+    background-color: rgb(254, 254, 254);
+    padding: px;
+    text-align: center;
+    font-size: larger;
+    max-width: 1000px;
+    padding-bottom: 10%;
+    margin: auto;
+}
+p.text-racibor{font-size: 30px;
+    
+      }
+
+
+@media screen and (max-width:600px) {
+    p.text-racibor{
+        font-size: 25px;
+    }
+}
